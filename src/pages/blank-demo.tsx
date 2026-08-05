@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { ArrowRight, Check, ChevronDown, CircleHelp, Info, Menu, Moon, RotateCcw, Send, SlidersHorizontal, Sparkles, Sun, X, Zap } from "lucide-react";
+import { ArrowRight, Check, ChevronDown, CircleHelp, GitFork, Info, Menu, Moon, RotateCcw, Send, SlidersHorizontal, Sparkles, Sun, X, Zap } from "lucide-react";
 import { useTheme } from "@/components/theme-provider";
 import { Analysis, analyzeText, modelCard } from "@/lib/signal-model";
 
@@ -31,7 +31,7 @@ function Header({ onModel, onDocs }: { onModel: () => void; onDocs: () => void }
       <button className="nav-button" onClick={() => { onDocs(); setMenuOpen(false); }}>Docs</button>
     </nav>
     <div className="header-actions">
-      <button className="icon-button github-button" aria-label="Open GitHub repository" onClick={() => window.open("https://github.com/Arun5768/signal-lens-ai", "_blank", "noopener,noreferrer")}><Github size={16} /></button>
+      <button className="icon-button github-button" aria-label="Open GitHub repository" onClick={() => window.open("https://github.com/Arun5768/signal-lens-ai", "_blank", "noopener,noreferrer")}><GitFork size={16} /></button>
       <button className="icon-button" aria-label="Toggle color theme" onClick={toggleTheme}>{theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}</button>
       <button className="mobile-menu" aria-label="Toggle navigation" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X size={21} /> : <Menu size={21} />}</button>
     </div>
