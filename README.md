@@ -55,7 +55,7 @@ bun run build
 src/
 ├── App.tsx                 # Router and theme provider
 ├── pages/blank-demo.tsx    # Signal Lens dashboard
-├── lib/analyzer.ts         # Explainable text analysis model
+├── lib/signal-model.ts     # Explainable text analysis model
 ├── styles.css              # Global styles and theme tokens
 └── theme.json              # Light and dark design tokens
 ```
