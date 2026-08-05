@@ -1,0 +1,20 @@
+<svg width="1400" height="820" viewBox="0 0 1400 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="820" rx="24" fill="#10110F"/>
+  <circle cx="1160" cy="100" r="300" fill="#A6D85E" fill-opacity=".06"/>
+  <path d="M80 90H1320" stroke="#2B302A"/>
+  <circle cx="104" cy="44" r="12" fill="#A6D85E" fill-opacity=".2"/><path d="M98 44h12M104 38v12" stroke="#A6D85E" stroke-width="1.5"/>
+  <text x="128" y="51" fill="#F1F2EA" font-family="Arial, sans-serif" font-size="20" font-weight="700">Signal<tspan fill="#A6D85E">Lens</tspan></text>
+  <text x="1060" y="50" fill="#A9B0A1" font-family="Arial, sans-serif" font-size="14">Playground</text><text x="1160" y="50" fill="#A9B0A1" font-family="Arial, sans-serif" font-size="14">Model card</text><text x="1260" y="50" fill="#A9B0A1" font-family="Arial, sans-serif" font-size="14">Docs</text>
+  <text x="80" y="166" fill="#A6D85E" font-family="Arial, sans-serif" font-size="11" letter-spacing="2">01 / INTERACTIVE PLAYGROUND</text>
+  <text x="80" y="218" fill="#F1F2EA" font-family="Arial, sans-serif" font-size="44" font-weight="700">Put the model to work.</text>
+  <rect x="80" y="280" width="600" height="300" rx="14" fill="#171A16" stroke="#30362D"/>
+  <text x="108" y="320" fill="#A6D85E" font-family="Arial, sans-serif" font-size="14">✦  INPUT MESSAGE</text>
+  <text x="108" y="375" fill="#E4E8DD" font-family="Arial, sans-serif" font-size="19">The export button crashes every time I</text><text x="108" y="404" fill="#E4E8DD" font-family="Arial, sans-serif" font-size="19">click it.</text>
+  <rect x="108" y="500" width="170" height="42" rx="6" fill="#A6D85E"/><text x="133" y="527" fill="#14200E" font-family="Arial, sans-serif" font-size="14" font-weight="700">✦  Run inference</text>
+  <rect x="720" y="280" width="600" height="300" rx="14" fill="#171A16" stroke="#30362D"/>
+  <text x="748" y="320" fill="#A6D85E" font-family="Arial, sans-serif" font-size="14">✦  PREDICTION</text><circle cx="1245" cy="315" r="4" fill="#A6D85E"/><text x="1258" y="320" fill="#A9B0A1" font-family="Arial, sans-serif" font-size="11">LIVE OUTPUT</text>
+  <text x="748" y="370" fill="#A9B0A1" font-family="Arial, sans-serif" font-size="12" letter-spacing="1">DETECTED INTENT</text><text x="748" y="416" fill="#F1F2EA" font-family="Arial, sans-serif" font-size="32" font-weight="700">Bug report</text>
+  <rect x="748" y="440" width="136" height="27" rx="14" fill="#293622"/><text x="764" y="458" fill="#A6D85E" font-family="Arial, sans-serif" font-size="12">92% confidence</text><rect x="1194" y="370" width="90" height="27" rx="14" fill="#3A2D20"/><text x="1210" y="388" fill="#E3B46D" font-family="Arial, sans-serif" font-size="12">High priority</text>
+  <path d="M748 490H1288" stroke="#30362D"/><text x="748" y="530" fill="#A9B0A1" font-family="Arial, sans-serif" font-size="12">SENTIMENT</text><text x="748" y="555" fill="#E4E8DD" font-family="Arial, sans-serif" font-size="17">● Negative</text><text x="1020" y="530" fill="#A9B0A1" font-family="Arial, sans-serif" font-size="12">TOKENS</text><text x="1020" y="555" fill="#E4E8DD" font-family="Arial, sans-serif" font-size="17">9</text><text x="1160" y="530" fill="#A9B0A1" font-family="Arial, sans-serif" font-size="12">LATENCY</text><text x="1160" y="555" fill="#E4E8DD" font-family="Arial, sans-serif" font-size="17">0.7ms</text>
+  <text x="80" y="680" fill="#A6D85E" font-family="Arial, sans-serif" font-size="11" letter-spacing="2">TRANSPARENT BY DEFAULT</text><text x="80" y="725" fill="#F1F2EA" font-family="Arial, sans-serif" font-size="28" font-weight="700">Good tools show their work.</text><text x="80" y="760" fill="#A9B0A1" font-family="Arial, sans-serif" font-size="16">Confidence, sentiment, and token signals stay visible.</text>
+</svg>
