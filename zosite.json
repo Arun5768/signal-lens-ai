@@ -1,0 +1,15 @@
+{
+  "name": "signal-lens-ai",
+  "local_port": 50935,
+  "entrypoint": "bun run dev",
+  "publish": {
+    "label": "signal-lens-ai",
+    "type": "http",
+    "entrypoint": "bun run prod",
+    "published_port": 51092,
+    "env": {
+      "NODE_ENV": "production",
+      "ZO_CLIENT_IDENTITY_TOKEN": "none"
+    }
+  }
+}
