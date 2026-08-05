@@ -6,7 +6,19 @@ The project is intentionally built as an intermediate-level portfolio project: t
 
 ## Live demo
 
-The app runs locally on a Zo Computer and can be published from the Zo Sites panel. The demo is designed for short messages such as customer feedback, support tickets, product notes, and internal updates.
+**[Open Signal Lens AI](https://signal-lens-ai-arunhere.zocomputer.io)** — a public live demo hosted on Zo.
+
+The demo is designed for short messages such as customer feedback, support tickets, product notes, and internal updates.
+
+## Screenshots
+
+### Interactive playground
+
+![Signal Lens AI playground](docs/screenshots/playground.svg)
+
+### Model card and evidence trace
+
+![Signal Lens AI model card](docs/screenshots/model-card.svg)
 
 ## What it demonstrates
 
@@ -20,7 +32,7 @@ The app runs locally on a Zo Computer and can be published from the Zo Sites pan
 
 ## Technical approach
 
-The current model adapter lives in `src/lib/analyzer.ts`. It uses weighted lexical signals, negation handling, phrase matching, and confidence calibration. This makes the demo deterministic and easy to run locally. The adapter boundary is deliberate: a future version can replace the heuristic scorer with a fine-tuned transformer, hosted inference endpoint, or an embedding-based retrieval layer without rewriting the dashboard.
+The current model adapter lives in `src/lib/signal-model.ts`. It uses weighted lexical signals, negation handling, phrase matching, and confidence calibration. This makes the demo deterministic and easy to run locally. The adapter boundary is deliberate: a future version can replace the heuristic scorer with a fine-tuned transformer, hosted inference endpoint, or an embedding-based retrieval layer without rewriting the dashboard.
 
 The frontend is built with React, TypeScript, Vite, Tailwind CSS, and Lucide icons. The app is hosted as a Zo Site with Bun and Hono handling the development and production process.
 
