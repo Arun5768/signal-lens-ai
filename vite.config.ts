@@ -4,15 +4,7 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  plugins: [
-    // React Compiler auto-memoizes components: skip hand-written useMemo/useCallback.
-    react({
-      babel: {
-        plugins: [["babel-plugin-react-compiler", {}]],
-      },
-    }),
-    tailwindcss(),
-  ],
+  plugins: [react({ babel: { plugins: [] } }), tailwindcss()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
